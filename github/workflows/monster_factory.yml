@@ -1,0 +1,33 @@
+name: 🐲 Ahmed Osama Monster Factory
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # ميزة التشغيل اليدوي بضغطة زر
+
+jobs:
+  build_the_monster:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: 🛠️ Installing Neural & Physics Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rustc python3-pip
+          pip3 install torch numpy psutil
+
+      - name: ⚙️ Compiling The Sovereign Kernel (Rust)
+        run: |
+          rustc Core_Sovereignty.rs -o MonsterKernel
+
+      - name: 🧬 Merging 20 Rare Features
+        run: |
+          echo "Integrating Neural Brain, Shadow Protocol, and Universe Engine..."
+          # دمج جميع الملفات في كيان واحد مشفر
+          cat Core_Sovereignty.rs Neural_Physics_Brain.py Shadow_Protocol.py > Ahmed_Osama_Monster_Binary.txt
+
+      - name: 📦 Delivery of The Monster
+        uses: actions/upload-artifact@v3
+        with:
+          name: The_Final_Monster
+          path: MonsterKernel
