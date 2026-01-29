@@ -1,15 +1,10 @@
-# Ahmed Osama Shadow Protocol
-# Features: 9. Anti-Telemetry, 10. Ghost Mesh, 11. Quantum Encryption, 12. Stealth Mode
-import socket
+import os
+# ميزة 9: قطع اتصال خوادم جوجل نهائياً من جذور النظام
+def kill_telemetry():
+    domains = ["telemetry.google.com", "stats.g.doubleclick.net", "ad-delivery.net"]
+    with open("/etc/hosts", "a") as f:
+        for d in domains:
+            f.write(f"127.0.0.1 {d}\n")
+    print("Shadow Protocol: Google is officially BLIND.")
 
-def blind_google():
-    # ميزة 9: قطع اتصال جميع خوادم التجسس التابعة لجوجل وأبل
-    try:
-        hosts = "/etc/hosts"
-        with open(hosts, "a") as f:
-            f.write("\n127.0.0.1 telemetry.google.com\n127.0.0.1 settings-win.data.microsoft.com")
-        print("Shield Active: Google is now blind to your actions.")
-    except:
-        print("Error: Monster needs Root to Blind the Giants.")
-
-blind_google()
+kill_telemetry()
