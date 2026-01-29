@@ -1,33 +1,17 @@
-# 🌌 SOVEREIGN OS: The Physics-AI Monster
-**"Intelligence Bound by Physics, Not by Clouds."**
+# 🐲 Sovereign OS: The Monster Factory
 
----
+> **"نحن لا نطور برامج، نحن نبني عوالم سيادية."**
 
-## ⚡ Executive Summary
-**Sovereign OS** is a revolutionary hardware-integrated framework designed for 100% offline, high-performance computing. Built by **Ahmed Osama (15yo Developer)**, this system eliminates cloud dependency and seizes full hardware sovereignty through Physics-Informed Neural Networks (PINNs).
+نظام **Sovereign OS** هو رؤية تقنية يقدمها **أحمد أسامة**، تهدف إلى كسر قيود أنظمة التشغيل التقليدية. في عالم يعتمد على السحابة، يأتي هذا النظام ليعيد القوة إلى العتاد (Hardware) مباشرة.
 
-## 🚀 Key Global Features (The Monster Specs)
-* **Hardware-Rooted Randomness:** Generates quantum-resistant encryption keys derived from real-time CPU thermal entropy.
-* **Physics-Informed Predictive Cooling:** Uses thermodynamic equations to predict hardware failure before it occurs.
-* **Zero-Telemetry Kernel:** A hard-coded "Black Hole" for data packets; no bit leaves the system without physical authorization.
-* **Neural Task Scheduling:** Optimizes CPU core distribution based on physical stress indices, reducing energy consumption by up to 40%.
+### 🚀 الرؤية الفلسفية:
+الكون يعمل وفق قوانين الفيزياء، ونظامنا يتبع نفس النهج. من خلال دمج الفيزياء في الكيرنل (Kernel)، يستطيع النظام التنبؤ بحالة المعالج، وتخصيص الطاقة للذكاء الاصطناعي، وحماية خصوصية المستخدم بشكل مطلق.
 
-## 🛠️ Technical Architecture
-The system operates on a custom-built Python-based kernel wrapper that talks directly to hardware sensors. 
+### 🛠 التقنيات المستخدمة:
+- **Language:** Python 3.13 / Binary Compilation.
+- **Kernel Interface:** PSUTIL Integration.
+- **Physics Engine:** Entropy-based Stress Indexing.
+- **Security:** Quantum-Random Entropy Keys.
 
-### Core Mathematical Foundation
-The "Sovereignty Metric" ($S_{ov}$) is calculated as:
-$$S_{ov} = \int \frac{Performance_{Hardware}}{Energy_{Cons} + Leakage_{Data}} dt$$
-
-## 🖥️ Live Dashboard (GUI)
-The system includes a high-end visual telemetry interface (`monster_gui.py`) that provides:
-- Real-time Thermal Stress Analysis.
-- Dynamic Entropy Generation.
-- Hardware Health Predictions.
-
----
-
-## 💼 Acquisition & Inquiries
-This project is open for technical evaluation by industry leaders (**Apple, Tesla, NVIDIA, Google**). 
-**Founder:** Ahmed Osama  
-**Vision:** Redefining the boundary between Code and Matter.
+### 💼 للمستثمرين والشركات التقنية:
+هذا المشروع متاح للاستحواذ أو الشراكة التقنية لتطوير أنظمة السيارات الذكية والأجهزة العسكرية التي تتطلب أماناً مطلقاً وعملاً بدون إنترنت.
